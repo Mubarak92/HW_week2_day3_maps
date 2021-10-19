@@ -28,9 +28,9 @@ map_names.put("Mubarak",4)
 
  */
     val City= mutableMapOf<String,String>("Riyadh" to "Center", "Abha" to "South", "Jeddah" to "West")
-   // City.putAll(listOf("Dammam","Tabuk","dddf").associateByTo() { index,item -> index.toString() to item })
+    City.putAll(listOf("Dammam","Tabuk","Jizan").mapIndexed { index,item -> index.toString() to item })
 
-    City.putAll(mapOf("Dammam" to "East","Tabuk" to "dd","44" to "dsfdsfdf"))
+   // City.putAll(mapOf("Dammam" to "East","Tabuk" to "dd","44" to "dsfdsfdf"))
     println(City)
 }
 
